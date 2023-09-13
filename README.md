@@ -10,7 +10,7 @@ El repositorio se organiza de la siguiente manera:
 
 - **/files**: En esta carpeta se encuentra el código de una API desarrollada en PHP que se utilizó como ejemplo para crear la imagen y posteriormetne el pod de pruebas implementado el el TFG. Puedes explorar este código como referencia o utilizarlo como punto de partida para tus propios proyectos.
 
-- - **/podtest.yaml**: Este archivo contiene el codigo de definición necesario para la creación de pod de pruebas que se explica en el TFG.
+- **/podtest.yaml**: Este archivo contiene el codigo de definición necesario para la creación de pod de pruebas que se explica en el TFG.
 
 ## Requisitos y Configuración
 
