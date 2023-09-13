@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server-api-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: server-api-deployment
+  template:
+    metadata:
+      labels:
+        app: server-api-deployment
+    spec:
+      containers:
+        - name: server-api-deployment
+          image: server-apache-php:v1.0.0
