@@ -12,10 +12,14 @@ El repositorio se organiza de la siguiente manera:
 
 - **/podtest.yaml**: Este archivo contiene el codigo de definición necesario para la creación de pod de pruebas que se explica en el TFG.
 
+- **/autoinstall.sh.yaml**: Este archivo contiene todo el codigo de instalación de Docker, Kuberenetes y Calico que se encuentra mas detallado en el TFG.
+
+
 ## Requisitos y Configuración
 
 Antes de comenzar a utilizar este código, asegúrate de tener los siguientes requisitos en su lugar:
 
+- Nodos con Fedora Linux instalado
 - Docker instalado en cada Nodo del clúster
 - cri-dockerd instalado y configurado en cada Nodo del clúster
 - Clúster de Kubernetes implementado .- En el TFG se especifica los pasos a seguir para su implementación
